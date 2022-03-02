@@ -1,0 +1,65 @@
+
+.topnav{
+    min-height:100vh;
+    width:100%;
+    background-image: url(homebackground.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+
+nav li{
+    display:inline;
+    margin-left: 0px;
+    padding-top: 10px;
+    margin-right: 20px;
+    position:relative;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.navleft{
+    float:left;
+    padding-top: 20px;
+    font-family: apparat, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navright{
+    float:right;
+    padding-top: 20px;
+    font-family: apparat, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.logo{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 30px;
+    font-family: apparat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.center-text{
+    position:absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    font-family: apparat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
