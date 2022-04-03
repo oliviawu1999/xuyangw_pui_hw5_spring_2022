@@ -1,4 +1,5 @@
 #Assignment 6B
+#All images from Unsplash
 
 ##Home page
 Homework6B.html
@@ -12,3 +13,4 @@ styles.css
 newstyles.css
 main.js
 shopall.js
+

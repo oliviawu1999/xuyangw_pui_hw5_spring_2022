@@ -28,6 +28,15 @@ function showCart(){
     ready();
 }
 
+//pop up when check out button is clicked
+function checkout(){
+    if(document.getElementsByClassName("total-price")[0].innerHTML=="$0"){
+        alert("You have nothing to check out!")
+    }else{
+        alert("Your order is placed");
+    }
+}
+
 function ready(){
     //remove item from cart
     let removeButton=document.getElementsByClassName("cart-remove");  
